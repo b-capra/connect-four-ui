@@ -1,0 +1,16 @@
+@font-face {
+  font-family: SpaceGrotesk;
+  src: url(./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf)
+}
+
+* {
+  font-family: SpaceGrotesk;
+  --purple: hsl(257, 100%, 64%);
+  --dark-purple: hsl(257, 67%, 51%);
+  --pink: hsl(347, 97%, 70%);
+  --yellow: hsl(41, 100%, 70%);
+}
+
+body {
+  margin: 0;
+}
