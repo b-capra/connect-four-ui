@@ -1,0 +1,63 @@
+.Rules {
+  height: 537px;
+  width: 480px;
+  background-color: #fff;
+  border-radius: 40px;
+  border: 3px solid black;
+  box-shadow: 0 10px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 71px;
+}
+
+.subheading {
+  color: var(--purple);
+  align-self: flex-start;
+  padding-left: 34px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.paragraph {
+  width: 412px;
+}
+
+.paragraph, .listText {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(0, 0, 0, 0.66);
+}
+
+.instructions {
+  padding: 0;
+  list-style: none;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  width: 412px;
+}
+
+.listMarker {
+  color: #000;
+  font-weight: bold;
+}
+
+.listText {
+  width: 385px;
+}
+
+.checkBtn {
+  background: none;
+  border: none;
+  padding: 0;
+}

@@ -1,10 +1,11 @@
 import './App.css'
 import Menu from './components/Menu'
+import Rules from './components/Rules'
 
 function App() {
   return (
     <div className="App">
-      <Menu />
+      <Rules />
     </div>
   )
 }
