@@ -10,11 +10,16 @@
   align-items: center;
 }
 
+.Rules > * {
+  margin: 0;
+}
+
 .heading {
   text-align: center;
   font-weight: bold;
   font-size: 56px;
   line-height: 71px;
+  margin-top: 30px;
 }
 
 .subheading {
@@ -24,9 +29,15 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 26px;
+  margin-top: 29px;
+}
+
+.subheading:last-of-type {
+  margin-bottom: 16px;
 }
 
 .paragraph {
+  margin-top: 16px;
   width: 412px;
 }
 
@@ -45,6 +56,7 @@
   display: flex;
   justify-content: space-between;
   width: 412px;
+  margin-bottom: 10px;
 }
 
 .listMarker {
@@ -60,4 +72,5 @@
   background: none;
   border: none;
   padding: 0;
+  margin-top: 15px;
 }
