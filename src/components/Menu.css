@@ -5,6 +5,18 @@
   justify-content: center;
 }
 
+.menuButton {
+  cursor: pointer;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menuButton:hover {
+  border-color: var(--dark-purple);
+}
+
 #cpuBtn {
   background-color: var(--pink);
   color: #fff;
@@ -18,11 +30,11 @@
   background-color: #fff;
 }
 
-@media screen and (max-width: 412px) {
+@media only screen and (max-width: 412px) {
   
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 413px) and (max-width: 768px) {
   .Menu {
     height: 537px;
     width: 480px;
@@ -44,12 +56,17 @@
     line-height: 31px;
     text-align: left;
     padding-left: 20px;
+    padding-right: 17px;
     height: 72px;
     width: 400px;
     border-radius: 20px;
     border: 3px solid black;
     box-shadow: 0 10px 0 0 black;
     margin: 15px 0;
+  }
+
+  .menuButton:hover {
+    box-shadow: 0 10px 0 0 var(--dark-purple);
   }
 
   #rulesBtn {
@@ -79,12 +96,17 @@
     line-height: 31px;
     text-align: left;
     padding-left: 20px;
+    padding-right: 17px;
     height: 72px;
     width: 400px;
     border-radius: 20px;
     border: 3px solid black;
     box-shadow: 0 10px 0 0 black;
     margin: 15px 0;
+  }
+
+  .menuButton:hover {
+    box-shadow: 0 10px 0 0 var(--dark-purple);
   }
 
   #rulesBtn {
