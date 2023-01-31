@@ -23,18 +23,19 @@
 }
 
 @media screen and (max-width: 768px) {
-
-}
-
-@media screen and (min-width: 769px) {
   .Menu {
     height: 537px;
     width: 480px;
     border-radius: 40px;
     border: 3px solid black;
     box-shadow: 0 10px 0 0 black;
-    gap: 30px;
     background-color: var(--purple);
+  }
+
+  .menuLogo {
+    width: 52px;
+    margin-top: 70px;
+    margin-bottom: auto;
   }
 
   .menuButton {
@@ -48,5 +49,45 @@
     border-radius: 20px;
     border: 3px solid black;
     box-shadow: 0 10px 0 0 black;
+    margin: 15px 0;
+  }
+
+  #rulesBtn {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .Menu {
+    height: 537px;
+    width: 480px;
+    border-radius: 40px;
+    border: 3px solid black;
+    box-shadow: 0 10px 0 0 black;
+    background-color: var(--purple);
+  }
+
+  .menuLogo {
+    width: 52px;
+    margin-top: 70px;
+    margin-bottom: auto;
+  }
+
+  .menuButton {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 31px;
+    text-align: left;
+    padding-left: 20px;
+    height: 72px;
+    width: 400px;
+    border-radius: 20px;
+    border: 3px solid black;
+    box-shadow: 0 10px 0 0 black;
+    margin: 15px 0;
+  }
+
+  #rulesBtn {
+    margin-bottom: 60px;
   }
 }
